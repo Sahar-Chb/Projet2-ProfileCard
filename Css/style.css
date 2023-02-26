@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Sofia+Sans:ital,wght@0,200;1,400&display=swap');
+
+
+body{
+  background-color: #31CAD3;
+}
+
+.card{
+
+  background-color:white;
+  width: 350px;
+  height: 450px;
+  text-align: center;
+  border-radius: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 12px;
+  box-shadow: 30px 35px 30px rgba(82, 79, 79, 0.548);
+  transition: 0.5s;
+}
+
+.card:hover{
+  background-color: #31CAD3;
+}
+
+.card>img{
+  width: 100px;
+  border-radius: 190px;
+  margin-top: 50px;
+  box-shadow: 10px 8px 15px rgba(128, 128, 128, 0.308);
+}
+
+
+.card>h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  text-shadow: 5px 5px 5px rgba(128, 128, 128, 0.459);
+}
+
+.card>p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-shadow: 5px 5px 5px rgba(128, 128, 128, 0.459);
+}
+
+.card>button{
+  background-color: #31CAD3;
+  border: none;
+  margin: 30px;
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.card>button:hover {
+  background-color: white;
+  color: #31CAD3;
+  border: 2px solid #31CAD3;
+}
+
+
+@media only screen and ( max-width:600px){
+  body{
+    background-color: blue;
+  }
+}
